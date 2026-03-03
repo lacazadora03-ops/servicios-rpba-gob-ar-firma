@@ -1,0 +1,128 @@
+html , body{height:100%;font: 12px "dinnextroundedltpro regular";TEXT-ALIGN:center;margin:auto;width:100%;}
+img{border:0px none;}
+A:link{COLOR:#414141;TEXT-DECORATION:none;}
+A:visited{COLOR:#414141;TEXT-DECORATION:none}
+A:hover{COLOR:#cccccc;TEXT-DECORATION:none;}
+div{margin:0 auto 0 auto;width:auto;}
+div#contenedor{width:100%;margin:0 auto;padding:5px auto;text-align:center;height:100%;}
+div#cuerpo{width:99%;min-height:74%;text-align:center;margin:0px auto;vertical-align:middle;}
+#contenidoCuerpo{text-align:center;margin:10px auto;vertical-align:middle;}
+#title{display:inline-block;width:100%;height:auto;margin:0;overflow:hidden;}
+#title #userInformation{float:right;height:100%;text-align:rigth;color:black;margin:20px 10px;}
+#title #userInformation div {font-weight:bold; text-align:left}
+#title #userInformation div label{font-weight:normal}
+#title #branding{margin:0;}
+/*#title #branding:after{content: "Buenos Aires Provincia";font-weight:bold;font-size:+5;text-align:center;}*/
+.seleccionado{background-color:#f09020;}
+#title #navegacion{display:none;}
+#subNavegacion{display:none;}
+body#resultado div#contenedor{}
+body#resultado #title *{margin:auto;text-align:justify;float:none;}
+body#resultado #title #userInformation{text-align:rigth;width:90%;}
+body#resultado #title #branding{text-align:center;width:auto;}
+body#resultado #title #navegacion{display:none;}
+body#resultado #title #branding img{width:90%;}
+/*body#resultado div#cuerpo{margin:10px 50px;}*/
+body#resultado div#pie{font-weight:bold;background-color:white;color:black;}
+body#resultado #menu{display:none;}
+body#resultado div.titulo{FONT-WEIGHT:bold;WIDTH:auto;BACKGROUND-COLOR:white;color:black;margin:10px 0;}
+div#menu{display:none;}
+div.informacionResultado{text-align:left;margin:5px;}
+div.informacionResultado BLOCKQUOTE{margin:auto 130px;}
+div.subTitulo{margin:5px 0 5px 0;}
+div.mensaje,div#mensaje{margin:15px;}
+div.aclaracion{width:90%;margin:10px 5%;TEXT-ALIGN:justify;}
+div#legal{text-align:left;margin:5px auto;#color:#26406A;}
+div#pdf{display:none;}
+div#pieLegal{text-align:right;font-weight:bold;}
+table{border-collapse:collapse;margin:0 auto;}
+table caption{font-weight:bold;margin:0 0 0 0;padding:0 0 0 0;}
+th{font-weight:bold;text-align:center;COLOR:#ffffff;BACKGROUND-COLOR:#414141;}
+th.subTituloTabla{font-weight:bold;background-color:white;color:black;}
+th a{color:white !important;}
+td{margin:0;}
+tr.listado td{border:1px solid;}
+table#indexAplicacion{margin:20px auto !important;width:98%;border-collapse:separate;border-spacing:3px;}
+table#indexAplicacion td{text-align:left;vertical-align:top;}
+table#indexAplicacion * table#servicios{width:100%;}
+#indexAplicacion a{}
+span.nombreAplicacion{}
+span.fechaUltimoAcceso{color:green;}
+table#principal td{text-align:left;}
+#contenidoResultado,.contenidoResultado{width:98%;}
+div.subContenidoResultado{margin:2px auto;text-align:center;min-width:60%;max-width:80%;}
+#contenidoResultado * th,.contenidoResultado * th{font-weight:bold;text-align:center;}
+#contenidoResultado table, .contenidoResultado table{}
+div#contenidoResultado,div.contenidoResultado{text-align:center;}
+#contenidoResultado a, #contenidoResultado p ,.contenidoResultado a, .contenidoResultado p{font-weight:bold !important;}
+table#contenidoResultado , td#contenidoResultado, div#contenidoResultado, table.contenidoResultado, td.contenidoResultado , div.contenidoResultado, div.subContenidoResultado{border:1px solid;padding:5px 5px;}
+table#contenidoResultado{margin-top:5px;min-width:60%;}
+table#contenidoResultado td,table.contenidoResultado td{height:25px;text-align:left;}
+table#resultado , div#resultado{}
+table#resultado p ,div#resultado p{font-weight:bold;text-align:left;}
+div#pie{height:30px;margin-top:5px;clear:both;}
+label{FONT-STYLE:normal;TEXT-ALIGN:right;font-weight:normal;}
+li{text-align:left;}
+div.tituloSeccion{border-bottom:1px solid #CCCCCC;border-top:1px solid #CCCCCC;color:#666666;font-weight:bold;height:20px;margin:5px 0 5px 0;padding-top:5px;text-align:center !important;}
+div.txtAdvertencia,.txtAdvertencia{COLOR:#FF8000;FONT-WEIGHT:bold;margin:5px 0;}
+div#sugerencia{margin-bottom:10px;margin-top:10px;font-weight:bold;text-transform:uppercase;}
+div#nombreAplicacion{FONT-WEIGHT:bold;TEXT-DECORATION:none;margin-bottom:10px;text-align:center;}
+div#botonera * {display:none;}
+div#paso{font-weight:bold;float:right;}
+dic#error{width: max-content;}
+ul.txtError li , .txtError , div#error{COLOR:#ff0000 !important;LINE-HEIGHT:15px;FONT-STYLE:normal;TEXT-DECORATION:none;TEXT-ALIGN:center;}
+div.titulo{FONT-WEIGHT:bold;BACKGROUND-COLOR:#414141;color:white;margin:0 0 10px;}
+.cuadrado2, table#indexAplicacion , div#formulario, div.subListado ,div.listado, div#consultarProcesadas{BORDER:#cccccc 2px solid;}
+table#indexAplicacion{margin:2px auto;}
+div#datosIndex{display:none;}
+div#login{width:50%;BORDER:#414141 1px solid;}
+div#login table{width:100%;}
+table.formulario{width:100%;}
+table.contenidoResultado tr td{padding-top:5px;vertical-align:top;}
+.nombreFormulario{TEXT-ALIGN:right;padding-top:1%;vertical-align:top;}
+table.consultarProcesadas td.nombreFormulario{text-align:left !important;}
+table.consultarProcesadas td.campoFormulario{vertical-align:bottom;}
+.separadorCampoFormulario{width:3px;padding-top:1%;vertical-align:top;}
+td.campoFormulario{text-align:left !important;}
+table.formulario tr td, table.contenidoResultado tr td{padding-top:10px;}
+td.campoFormulario *{font-weight:bold;}
+.obligatorio{COLOR:#008000;}
+div#obligatorio{padding-top:5px;}
+div.listado{min-width:400px;}
+div#formulario, div#consultarProcesadas{min-width:300px;}
+div#formulario, div.listado,div#consultarProcesadas{display:table;max-width:99%;}
+div.contenedorColumnas{display:table;}
+div#exito, .exito{COLOR:#009900;font-color:#009900;font-weight:bold;text-align:center;LIST-STYLE-IMAGE:none;}
+.comentario{FONT-STYLE:normal;TEXT-DECORATION:none;COLOR:#5c9d27;}
+p{FONT-STYLE:normal;TEXT-ALIGN:center;}
+div.columna{float:left;margin:15px 15px 5px 20px;}
+.divCampo div{border-style:solid;border-color:gray;}
+.divCampo input{FONT-WEIGHT:bold;COLOR:#000000;text-align:left;}
+.divCampo label{FONT-STYLE:normal;TEXT-ALIGN:right;}
+div#busqueda{margin:5px;text-align:center;}
+table#listadoProcesadas{margin-top:5px;width:98%;}
+table#listadoProcesadas thead{border-collapse:separate;}
+table#listadoProcesadas td{border:1px solid;height:25px;}
+table.detalleResultado , table.detalleResultado td{TEXT-ALIGN:left;border:none;margin:10px 0;}
+table.detalleResultado td{padding:2px 5px;}
+span.paginado{text-align:center;width:90%;}
+p.paginado{text-align:right !important;width:100%;margin:0px;}
+div#mejoras{font-weight:bold;font-size:150%;border:1px solid;width:70%;}
+div#backups{font-size:+5;border:1px solid;}
+div#linkError{}
+div#mensajeError{margin:50px 50px;}
+div#corte{clear:both;}
+div.subListado{margin-left:2px;margin-right:2px;margin-bottom:6px;width:98%;}
+div.subListado table{width:98%;}
+div#backups, div#mejoras{color:red;font-size:20px;}
+div.perfil{}
+table.perfil{margin:auto auto;width:auto !important;}
+table.estructura{color:blue;margin:15px;}
+div#informacionResultado , div#mensaje, h3#mensaje,div#aclaracion ,td#separadorCampoFormulario,
+#campoFormulario,#nombreFormulario,.tituloTabla ,.tituloFormulario,.parrafo,#txtAdvertencia,.tituloResultado,div.formulario,div#subTitulo{BACKGROUND-COLOR:RED;color:white;}
+.criterioBusqueda label{float:left;width:50%;font-weight:bold;margin-right:5px;}
+.criterioBusqueda div.criterio{width:50%;padding:1px;}
+.criterioBusqueda div div{width:50%;text-align:left;}
+table.tabcalguardainforme{}
+table.tabcalguardainforme td.diapaquete {background-color:black!important;color:white!important;}
+span.underline{ text-decoration:underline;}

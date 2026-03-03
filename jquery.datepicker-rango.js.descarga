@@ -1,0 +1,34 @@
+
+$.fn.datepickerRango = function(options){  
+	var b;
+	var opts = $.extend({}, $.fn.datepickerRango.defaults, options);
+	if (opts.minDate > 0) {opts.minDate= 0 - opts.minDate};
+	if (opts.maxDate < 0) {opts.maxDate= 0 - opts.maxDate};	
+	dates = $(this).datepicker(opts);
+	dates.get(0).readOnly=opts.readOnly;
+	dates.get(1).readOnly=opts.readOnly;
+	if(opts.mostrarHoy == true){ 		
+		dates.get(0).value= $.datepicker.formatDate('dd/mm/yy', new Date());
+		dates.get(1).value= $.datepicker.formatDate('dd/mm/yy', new Date())}
+	else{
+		//dates.get(0).value=''
+		}
+};  
+ 
+$.fn.datepickerRango.defaults = {  
+		showTrigger: '#calImg',
+		minDate: '-35d',
+		maxDate: '0',
+		mostrarHoy:true,
+		readOnly: true,
+		onSelect: function( selectedDate ) {
+			var option = (this.id == (dates.get(0).id)) ? "minDate" : "maxDate";
+			instance = $( this ).data( "datepicker" );
+			date = $.datepicker.parseDate(
+			instance.settings.dateFormat ||
+			$.datepicker._defaults.dateFormat,selectedDate, instance.settings );
+			dates.not( this ).datepicker( "option", option, date );
+		}
+};
+
+

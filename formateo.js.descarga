@@ -1,0 +1,41 @@
+function formateo (pagina)
+{
+var opciones=("toolbar=no, location=no, directories=no, status=yes, menubar=no ,scrollbars=yes, resizable=yes, left=50, WIDTH=1024 HEIGHT=630");
+window.open(pagina,"",opciones);
+}
+function formateoHorarios (pagina)
+{
+var opciones=("toolbar=no, location=no, directories=no, status=no, menubar=no ,scrollbars=no, resizable=no, left=100, WIDTH=380 HEIGHT=150");
+window.open(pagina,"",opciones);
+}
+function formateoFaq (pagina)
+{
+var opciones=("toolbar=no, location=no, directories=no, status=no, menubar=no ,scrollbars=no, resizable=no, left=100, WIDTH=380 HEIGHT=510");
+window.open(pagina,"",opciones);;
+}
+function formateoModulos (pagina,nombre)
+{
+var opciones=("toolbar=no, location=no, directories=no, status=no, menubar=no ,scrollbars=yes, resizable=no, left=100, WIDTH=400 HEIGHT=265");
+window.open(pagina,nombre,opciones);
+}
+function formateoCuit (pagina,nombre)
+{
+var opciones=("toolbar=no, location=no, directories=no, status=no, menubar=no ,scrollbars=yes, resizable=no, left=100, WIDTH=410 HEIGHT=100");
+window.open(pagina,nombre,opciones);
+}
+function formateoHorario (pagina,nombre)
+{
+var opciones=("toolbar=no, location=no, directories=no, status=no, menubar=no ,scrollbars=yes, resizable=yes, left=40, WIDTH=750 HEIGHT=170");
+window.open(pagina,nombre,opciones);
+}
+
+function formateoAvisos (pagina,nombre)
+{
+var opciones=("toolbar=no, location=no, directories=no, status=no, menubar=no ,scrollbars=yes, resizable=no, left=200%, top=250%,WIDTH=350 HEIGHT=200");
+window.open(pagina,nombre,opciones);
+}
+function formateoDeleg (pagina,nombre)
+{
+var opciones=("toolbar=no, location=no, directories=no, status=no, menubar=no ,scrollbars=yes, resizable=no, left=125, WIDTH=420 HEIGHT=480");
+window.open(pagina,nombre,opciones);
+}
